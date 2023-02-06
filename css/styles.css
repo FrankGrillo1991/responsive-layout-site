@@ -36,3 +36,13 @@
 .box-6 {
     background-color: #9A2617;
 }
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col {
+        flex-basis: calc(50% - 20px);
+    }
+}
