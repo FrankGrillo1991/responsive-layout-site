@@ -9,3 +9,11 @@
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
+.col {
+    margin: 10px;
+    min-height: 250px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
