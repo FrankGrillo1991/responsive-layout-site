@@ -31,6 +31,9 @@ nav {
     letter-spacing: .05em;
     background-color: white;
 }
+.bio {
+    color: black;
+}
 h1, .top-nav {
     text-align: center;
 }
