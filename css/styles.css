@@ -214,14 +214,17 @@ footer {
     .bio {
         font-size: 1.75em;
     }
+    .portfolio-container {
+        margin-bottom: 100%
+    }
     .project:nth-child(even) {
         margin-right: initial;
     }
-    .project.proj-1,
-    .project.proj-2,
-    .project.proj-3,
-    .project.proj-4,
-    .project.proj-5 {
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5 {
         margin-right: 5%''
     }
     .project {
