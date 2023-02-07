@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   color: black;
-  background-color: #093145;
+  background-color: white;
 }
   
 ul {
@@ -18,7 +18,7 @@ ul {
 a {
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
+  color: black;
 }
   nav {
     font-family: "Roboto", Arial, Verdana;
@@ -73,7 +73,7 @@ a {
       margin-top: auto;
       padding: 0 20px;
       height: 100px;
-      background-color: #107896;
+      background-color: white;
     }
     .full {
       display: none;
