@@ -96,7 +96,6 @@ a {
       display: none;
     }
   @media (min-width: 768px) {
-    
     .container {
       display: flex;
       flex-wrap: wrap;
