@@ -87,7 +87,8 @@ footer {
     display: none;
 }
 .navbar {
-    background-color: #9A2617;
+    float: right;
+    background-color: #108896;
     overflow: hidden;
     position: fixed;
     bottom: 0;
