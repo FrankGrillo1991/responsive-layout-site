@@ -87,20 +87,11 @@ footer {
     display: none;
 }
 .navbar {
-    background-color: white;
+    background-color: #9A2617;
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-.navbar a {
-    float: right;
-    display: flex;
-    color: #829356;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
 }
 
 @media (min-width: 768px) {
