@@ -160,10 +160,6 @@ footer {
         height: auto;
     }
     .bio {
-        width: 66%;
-        padding-right: 25%;
-        text-align: left;
-        margin-top: 0;
         font-size: 1.25em; 
     }
     .project {
@@ -199,6 +195,43 @@ footer {
     .nav-footer li {
         list-style: none;
         padding-left: 20px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    body {
+        padding-bottom: 25px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav {
+        width: 335px;
+        display: flex;
+        margin: initial;
+        align-items: center;
+    }
+    .bio {
+        font-size: 1.75em;
+    }
+    .project {
+        margin-right: 5%;
+    }
+    .project:nth-child(even) {
+        margin-right: initial;
+    }
+    .project:nth-child(2),
+    .project:nth-child(5) {
+        padding: 50%;
+    }
+    .project {
+        width: 30%;
+    }
+    .project-img {
+        max-width: 100%;
+    }
+    .contact-container {
+        max-width: 50%;
     }
 }
 
