@@ -86,6 +86,13 @@ footer {
 .full {
     display: none;
 }
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 @media (min-width: 768px) {
     img {
