@@ -48,6 +48,12 @@ nav {
 #portfolio {
     padding: 40px;
 }
+.project {
+    padding-bottom: 25px;
+}
+.contact-info {
+    font-weight: 700;
+}
 h1, .top-nav {
     text-align: center;
 }
