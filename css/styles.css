@@ -39,8 +39,8 @@ nav {
     background-color: white;
 }
 .bio,
-.contact-container h2,
-.contact-container p {
+.contact-container p,
+.contact-container p a {
     color: black;
 }
 .portfolio-container {
