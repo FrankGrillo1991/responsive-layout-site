@@ -84,6 +84,9 @@
     background-color: #9A2617;
   }
   @media (min-width: 768px) {
+    img {
+        width: 100%;
+    }
     .top-nav {
       margin-top: 0;
     }
@@ -103,6 +106,9 @@
       color: #fff;
     }
     @media (min-width: 1024px) {
+        img {
+            width: 100%;
+        }
         nav {
           display: flex;
           justify-content: space-between;
