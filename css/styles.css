@@ -131,6 +131,15 @@ a {
     .top-nav a {
       color: #fff;
     }
+
+    .top {
+      display: none;
+    }
+    
+    .full {
+      display: inline-block;
+      margin-left: 20px;
+    }
     @media (min-width: 1024px) {
       .col {
         flex-basis: calc(33.333% - 20px);
