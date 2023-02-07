@@ -116,6 +116,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-weight: 700;
+    border-top: solid grey 1px;
 }
 .full {
     display: none;
