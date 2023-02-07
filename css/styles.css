@@ -34,6 +34,10 @@ nav {
 .bio {
     color: black;
 }
+.portfolio-container {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
 h1, .top-nav {
     text-align: center;
 }
