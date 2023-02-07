@@ -163,6 +163,8 @@ footer {
         width: 66%;
         padding-right: 25%;
         text-align: left;
+        margin-top: 0;
+        font-size: 1.25em; 
     }
     .project {
         float: left;
@@ -170,7 +172,10 @@ footer {
         margin: auto;
     }
     .project:nth-child(even) {
-        margin-right: 10%;
+        margin-right: 7%;
+    }
+    .portfolio-image {
+        max-width: 100%;
     }
     .portfolio-text {
         padding: 0 25px;
@@ -178,6 +183,9 @@ footer {
     .contact-container {
         max-width: 75%;
         margin: auto;
+    }
+    .contact-text {
+        margin-bottom: 50px;
     }
 }
 
