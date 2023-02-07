@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   color: black;
-  background-color: white;
+  background-color: #093145;
 }
   
 ul {
@@ -18,7 +18,7 @@ ul {
 a {
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: white;
 }
   nav {
     font-family: "Roboto", Arial, Verdana;
@@ -73,20 +73,13 @@ a {
       margin-top: auto;
       padding: 0 20px;
       height: 100px;
-      background-color: white;
+      background-color: #107896;
     }
     .full {
       display: none;
     }
   @media (min-width: 768px) {
-    .top {
-      display: none;
-    }
-    .full {
-      display: inline-block;
-      margin-left: 20px;
-    }
-  }
+    
     .container {
       display: flex;
       flex-wrap: wrap;
