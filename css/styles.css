@@ -87,8 +87,12 @@
     background-color: #9A2617;
   }
   @media (min-width: 768px) {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
     .col {
-      width: 100%;
+      flex-basis: calc(50% - 20px);
     }
     img {
         width: 100%;
@@ -113,7 +117,7 @@
     }
     @media (min-width: 1024px) {
       .col {
-        width: 50%;
+        flex-basis: calc(33.333% - 20px);
       }
         img {
             width: 100%;
