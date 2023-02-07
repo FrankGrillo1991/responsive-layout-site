@@ -199,7 +199,7 @@ footer {
 }
 @media screen and (min-width: 1024px) {
     body {
-        padding-bottom: 25px;
+        padding-bottom: 0;
     }
     header {
         display: flex;
@@ -215,7 +215,7 @@ footer {
         font-size: 1.75em;
     }
     .project {
-        margin-right: 5%;
+        margin-right: 0%;
     }
     .project:nth-child(even) {
         margin-right: initial;
