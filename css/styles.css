@@ -35,6 +35,9 @@ a:hover {
     text-decoration: underline;
     color: blue;
 }
+profile-pic {
+    padding-top: 50px;
+}
 nav {
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
@@ -131,54 +134,40 @@ footer {
     width: 100%;
 }
 
-@media (min-width: 768px) {
-    img {
-        width: 100%;
-    }
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .col {
-        flex-basis: calc(50% - 20px);
-        width: 100%;
-    }
+@media screen and (min-width: 768px) {
     nav {
+        width: 335px;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        margin: auto;
     }
-    .top-nav {
-        margin-top: 0;
-    }
-.top-nav li {
-    display: inline-block;
-    width: auto;
-    margin-right: 15px;
-    background-color: transparent;
-}
-.top-nav li:last-child {
-    margin-right: 0;
-}
-.top-nav a {
-    color: #fff;
-}
-@media (min-width: 1024px) {
-    img {
-        width: 100%;
-    }
-    .col {
-        flex-basis: calc(33.333% - 20px);
-        width: 50%;
-    }
-    nav {
+    .section-1 {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: row-reverse;
     }
-    .top-nav,
-    .top-nav li {
-        width: initial;
-        margin-bottom: 0;
+    .profile-pic {
+        padding-top: 0;
+        width: 33%;
+        height: auto;
     }
+    .bio {
+        width: 66%;
+        padding-right: 25%;
+        text-align: left;
+    }
+    .project {
+        float: left;
+        width: 45%;
+        margin: auto;
+    }
+    .project:nth-child(even) {
+        margin-right: 10%;
+    }
+    .portfolio-text {
+        padding: 0 25px;
+    }
+    .contact-container {
+        max-width: 75%;
+        margin: auto;
+    }
+}
 
