@@ -9,11 +9,15 @@ body {
 ul {
     padding-left: 0;
 }
-li {
+li,
+h2 {
     list-style: none;
     font-weight: 700;
     text-transform: uppercase;
     padding: 15px;
+}
+#top {
+    text-transform: uppercase;
 }
 .title {
     font-size: 30px;
