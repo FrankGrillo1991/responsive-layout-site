@@ -86,13 +86,6 @@ footer {
 .full {
     display: none;
 }
-.navbar {
-    background-color: #108896;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
 @media (min-width: 768px) {
     img {
@@ -129,19 +122,10 @@ footer {
         flex-basis: calc(33.333% - 20px);
         width: 50%;
     }
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+
     .top-nav,
     .top-nav li {
         width: initial;
         margin-bottom: 0;
     }
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
+
