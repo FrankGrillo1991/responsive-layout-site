@@ -38,7 +38,8 @@ nav {
     letter-spacing: .05em;
     background-color: white;
 }
-.bio {
+.bio,
+.contact-container {
     color: black;
 }
 .portfolio-container {
