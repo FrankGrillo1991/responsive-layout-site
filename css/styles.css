@@ -187,5 +187,18 @@ footer {
     .contact-text {
         margin-bottom: 50px;
     }
+    .top {
+        display: none;
+    }
+    .nav-footer {
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color:rgb(57, 57, 57);
+    }
+    .nav-footer li {
+        list-style: none;
+        padding-left: 20px;
+    }
 }
 
