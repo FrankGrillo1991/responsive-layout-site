@@ -139,4 +139,9 @@ footer {
         width: initial;
         margin-bottom: 0;
     }
+    nav {
+        display: flex;
+        justify-content: space space-between;
+        align-items: center;
+    }
 }
