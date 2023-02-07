@@ -220,12 +220,6 @@ footer {
     .project:nth-child(even) {
         margin-right: initial;
     }
-    .col-1,
-    .col-2,
-    .col-3,
-    .col-4,
-    .col-5 {
-        margin-right: 5%''
     }
     .project {
         width: 30%;
