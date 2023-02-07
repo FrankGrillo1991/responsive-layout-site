@@ -93,6 +93,7 @@ footer {
     }
     .col {
         flex-basis: calc(50% - 20px);
+        width: 100%;
     }
     .top-nav {
         margin-top: 0;
@@ -112,6 +113,7 @@ footer {
 @media (min-width: 1024px) {
     .col {
         flex-basis: calc(33.333% - 20px);
+        width: 50%;
     }
     nav {
         display: flex;
