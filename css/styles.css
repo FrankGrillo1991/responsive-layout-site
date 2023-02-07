@@ -87,6 +87,9 @@
     background-color: #9A2617;
   }
   @media (min-width: 768px) {
+    .col {
+      width: 100%;
+    }
     img {
         width: 100%;
     }
@@ -109,6 +112,9 @@
       color: #fff;
     }
     @media (min-width: 1024px) {
+      .col {
+        width: 50%;
+      }
         img {
             width: 100%;
         }
