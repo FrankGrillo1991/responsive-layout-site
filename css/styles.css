@@ -45,6 +45,9 @@ a {
   h1 a, .top-nav a {
     color: #000;
   }
+  .prof-img {
+    max-width: 367px;
+  }
   .top-nav {
     margin-top: 30px;
   }
