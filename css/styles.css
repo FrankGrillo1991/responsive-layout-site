@@ -5,6 +5,9 @@ body {
   margin: 0 auto;
   max-width: 1024px;
 }
+img {
+  max-width: 100%;
+}
 .container {
   max-width: 1100px;
   padding: 10px;
@@ -19,6 +22,13 @@ body {
   letter-spacing: 1px;
   padding-top: 5px;
 }
+.bio {
+  text-align: center;
+}
+#portfolio {
+  text-align: center;
+}
+
   
 ul {
   list-style: none;
@@ -44,9 +54,6 @@ a {
   
   h1 a, .top-nav a {
     color: #000;
-  }
-  .prof-img {
-    max-width: 367px;
   }
   .top-nav {
     margin-top: 30px;
@@ -94,11 +101,32 @@ a {
       height: 100px;
       background-color: #107896;
     }
+    footer a {
+      color: white;
+      text-transform: uppercase;
+    }
     .full {
       display: none;
     }
+    #contact {
+      text-align: center;
+    }
   @media (min-width: 768px) {
-    
+    .bio {
+      text-align: left;
+      flex-basis: 60%;
+      font-size: 18px;
+      
+    }
+    .bio-container {
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 20px;
+      justify-content: space-between;
+    }
+    .prof-img {
+      flex-basis: 38%;
+    }
     .container {
       display: flex;
       flex-wrap: wrap;
@@ -136,9 +164,13 @@ a {
       display: inline-block;
       margin-left: 20px;
     }
+  }
     @media (min-width: 1024px) {
       .top-nav {
         margin-top: 0;
+      }
+      .bio {
+        font-size: 22px;
       }
     
       .top-nav li {
